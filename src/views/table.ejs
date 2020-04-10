@@ -1,0 +1,17 @@
+
+<% for(var i=0; i<forfood.name.length; i++) {%>
+    <tr>
+       <td>
+        <%= forfood.name[i] %>
+      </td>
+      <td>
+        <%= forfood.calorie[i] %>
+      </td>
+      <td>
+        <%= forfood.date[i] %>
+        <button onclick="del()" class="btn btn-primary">Del
+      </td>
+    </tr>
+ <% } %>
+ <!-- <%= forfood.calorie[i] %> -->
+ <!-- <%= forfood.date[i] %> -->
